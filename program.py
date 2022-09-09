@@ -41,9 +41,11 @@ donated = list(map_object)
  
 n = len(donated)
 
-print("Output:{}".
+print("The Output is:{}".
 
 format(amountdonated(donated, n)))
+
+
 
 
 # In[ ]:
