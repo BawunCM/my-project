@@ -19,18 +19,18 @@ def amountdonated(donated, n):
         return max(donated[0], donated[1])
  
 
-    li = [0]*n
+    list = [0]*n
  
-    li[0] = donated[0]
+    list[0] = donated[0]
 
-    li[1] = max(donated[0], donated[1])
+    list[1] = max(donated[0], donated[1])
 
     for i in range(2, n):
 
-        li[i] = max(donated[i]+li[i-2], li[i-1])
+        list[i] = max(donated[i]+list[i-2], list[i-1])
  
 
-    return li[-1]
+    return list[-1]
  
 
 input_amount = input("Enter the amounts each family if willing to donate for the cause")
