@@ -33,7 +33,7 @@ def amountdonated(donated, n):
     return li[-1]
  
 
-input_amount = input("Enter the amounts each family if willing to donate ")
+input_amount = input("Enter the amounts each family if willing to donate for the cause")
 amount = amount.split()
 map_object = map(int, list1)
 donated = list(map_object)   
@@ -41,7 +41,7 @@ donated = list(map_object)
  
 n = len(donated)
 
-print("The Output is:{}".
+print("The Output collected from families:{}".
 
 format(amountdonated(donated, n)))
 
